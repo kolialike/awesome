@@ -1,0 +1,39 @@
+#footer	
+	+clearfix
+	ul 
+		float: left
+		li 
+			float: left
+			a 
+				font-size: 14px
+				line-height: 42px
+				display: inline-block
+				text-transform: uppercase
+				color: #9a9a9a
+				+transition(0.3s)
+				&:hover
+					color: #60606e
+			&:after
+				content: "-"
+				color: #9a9a9a
+				margin: 0px 5px
+			&:last-child
+				&:after
+					display: none
+				
+	.footer-text
+		float: right
+		font-size: 14px
+		color: #9a9a9a
+		line-height: 42px
+		display: inline-block
+		text-transform: uppercase
+	.footer-socials
+		display: block
+		text-align: right
+		clear: both
+		a
+			color: #989898 
+			+transition(0.3s)
+			&:hover
+				color: #60606e

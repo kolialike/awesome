@@ -1,0 +1,1 @@
+jQuery(function(e){e(".flexslider").flexslider({animation:"slide"})});
