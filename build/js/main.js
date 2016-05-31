@@ -1,1 +1,1 @@
-jQuery(function(e){e(".flexslider").flexslider({animation:"slide"})});
+$(document).ready(function(){var e=$(".grid").masonry({itemSelector:".item",singleMode:!1,isResizable:!0,isAnimated:!0,animationOptions:{queue:!1,duration:500}}),i=($(".web"),$(".grafic"),$(".portfolio-category"));i.on("click","li",function(i){i.preventDefault(),$(this).addClass("active").siblings().removeClass("active");var t=$(this).data("web");"all"==t?$(".item").show():($(".item:not(."+t+")").hide(),$(".item."+t).show()),e.masonry("destroy")})});

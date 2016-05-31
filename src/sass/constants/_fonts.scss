@@ -31,6 +31,15 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Code Pro';
+  src: url('../fonts/Code-Pro-Bold.eot');
+  src: url('../fonts/Code-Pro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Code-Pro-Bold.woff') format('woff'),
+    url('../fonts/Code-Pro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
   font-family: "awesome";
   src:url("../fonts/awesome.eot");
   src:url("../fonts/awesome.eot?#iefix") format("embedded-opentype"),
